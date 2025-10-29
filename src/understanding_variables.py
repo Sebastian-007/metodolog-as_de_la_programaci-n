@@ -28,4 +28,23 @@ Los nombres de variables en Python deben nombrarse solo con:
 """
 
 gael_message = "Hola, soy Gael y estoy aprendiendo python"
-print(gael_mesage)
+print(gael_message)
+print(gael_message)
+
+"""
+tracebacak: es un registro de donde el interprete
+            tuvo problemas al intentar ejecutar su código.
+
+    Ejemplo: 
+
+    Traceback (most recent call last):
+  File "C:/Users/Sebastian/Projects_prog/metodolog-as_de_la_programaci-n/src/understanding_variables.py", line 32, in <module>
+    print(gael_mesage)
+          ^^^^^^^^^^^
+
+    NameError: name 'gael_mesage' is not defined. Did you mean: 'gael_message'?
+
+    NameError:Significa que olvidamos establecer el valor de una
+     variable antes de utilizar o cometimos un error al ingresar
+     el nombre de la variable.
+"""
