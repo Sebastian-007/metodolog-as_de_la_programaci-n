@@ -87,3 +87,40 @@ famous_person_2 = "Socrates"
 quote_2 = "Solo se que no se nada"
 message_f_string_2 = f"{famous_person_2} una ves dijo: {quote_2}"
 print(message_f_string_2)
+
+# Whitespaces
+"""
+Whitespaces se refiere a cualquier caracter que se imprime,
+ es decir un tabulador y finales de línea. Los whitespaces
+ se utilizan comunmente para organizar las salidas (prints)
+ de tal manera que sea más amigable de leer o ver para los usuarios.
+
+"""
+
+# Ejemplos 
+print("Python")
+print("\tPython") # tabulador
+print("\t\tPython") # doble tabulador
+
+# Ejemplos Salto de linea
+print("Languajes: \nPython \nC \nJavaScript")
+print("Carlos")
+print("Tovar")
+
+message = """
+
+    esta clase es de programación 
+
+    mis compañeros son buena onda
+
+                           metodologias de la programación
+"""
+print(message)
+
+
+# Eliminacion de espacios en blanco 
+programing_languages = " Python  JavaScript "
+print(programing_languages)
+print(programing_languages.lstrip()) # elimina espacios a la izquierda
+print(programing_languages.rstrip()) # elimina espacios a la derecha
+print(programing_languages.strip()) # elimina espacios a ambos lados

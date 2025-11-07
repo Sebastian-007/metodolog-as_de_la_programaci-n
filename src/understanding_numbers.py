@@ -67,3 +67,17 @@ print(2*0.2)
 
 print(0.2+0.1)
 print(3*0.1)
+
+### Imprimir la edad de alguien
+age = 33
+message = "Charly tiene" + age + "años"
+print(message)
+
+"""
+TypeError: Python no puede reconocer el tipo de informacion que se está utilizando.
+
+Para convertir a string utilizo: str()
+"""
+
+message_f = f"Charly tiene {age} años"
+print(message_f)
