@@ -51,8 +51,8 @@ print("Valor mínimo:", min(digits))  # Salida: 0
 print("Valor máximo:", max(digits))  # Salida: 9
 print("Suma de todos los valores:", sum(digits))  # Salida: 45
 
-for num in digits
+for num in digits:
 
-squares_list_comp = [num**2 for num in range(10)]
-print(squares_list_comp)
+    squares_list_comp = [num**2 for num in range(10)]
+    print(squares_list_comp)
 
