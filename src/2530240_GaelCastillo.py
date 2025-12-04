@@ -426,6 +426,14 @@ else:
         print(f"Underweight: {is_underweight}")
         print(f"Normal: {is_normal}")
         print(f"Overweight: {is_overweight}")
+"""
+Principios y buenas practicas 
+- Usar tipos apropiados: int para contadores, float para cantidades con decimales.
+- Evitar duplicar expresiones complejas: guardar resultados intermedios en variables.
+- Validar datos antes de operar (por ejemplo, que horas y salarios no sean negativos).
+- Usar nombres de variables descriptivos y mensajes claros para el usuario.
+- Documentar claramente cómo se interpretan los booleanos (qué significa true y qué significa false en cada contexto).
+"""
 
 # Conclusiones
 """
