@@ -38,6 +38,6 @@ language is {value.title()}.")
 for key in favorite_languages.keys():
     print(key)
 
-# Looping through all values
+# Looping through all values    
 for value in favorite_languages.values():
     print(value)
